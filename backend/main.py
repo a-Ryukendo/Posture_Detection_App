@@ -17,7 +17,7 @@ app = FastAPI()
 # Enable CORS for Vercel frontend (replace with your actual Vercel URL)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://your-app-name.vercel.app"],  # TODO: Replace with your actual Vercel URL
+    allow_origins=["https://posture-detection-app-y8a7.onrender.com"],  # TODO: Replace with your actual Vercel URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
