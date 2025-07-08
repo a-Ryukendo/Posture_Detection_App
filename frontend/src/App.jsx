@@ -7,8 +7,8 @@ import axios from 'axios';
 import Webcam from 'react-webcam';
 
 // Backend endpoints
-const API_URL = 'http://localhost:8000/analyze_video/'; // For video upload
-const FRAME_API_URL = 'http://localhost:8000/analyze_frame/'; // For webcam frames
+const API_URL = 'https://posture-detection-app-y8a7.onrender.com/analyze_video/'; // For video upload
+const FRAME_API_URL = 'https://posture-detection-app-y8a7.onrender.com/analyze_frame/'; // For webcam frames
 
 // MediaPipe pose connections for drawing skeleton
 const POSE_CONNECTIONS = [
