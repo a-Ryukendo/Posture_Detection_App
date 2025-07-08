@@ -14,10 +14,10 @@ from typing import List
 # Initialize FastAPI app
 app = FastAPI()
 
-# Enable CORS for Vercel frontend (replace with your actual Vercel URL)
+# Enable CORS for deployed Vercel frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://posture-detection-app-y8a7.onrender.com"],  # TODO: Replace with your actual Vercel URL
+    allow_origins=["https://posture-detection-app-steel.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
