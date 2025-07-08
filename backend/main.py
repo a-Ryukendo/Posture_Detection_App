@@ -14,10 +14,10 @@ from typing import List
 # Initialize FastAPI app
 app = FastAPI()
 
-# Enable CORS for all origins (adjust for production)
+# Enable CORS for Vercel frontend (replace with your actual Vercel URL)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://your-app-name.vercel.app"],  # TODO: Replace with your actual Vercel URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
